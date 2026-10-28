@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>netops</title>
+<style>body{font-family:system-ui,sans-serif;max-width:40rem;margin:3rem auto;padding:0 1rem;line-height:1.5;color:#222}</style>
+</head>
+<body>
+<h1>netops</h1>
+<p>netops is a private network-operations tool used only by its owner. It reads alert
+emails from the owner's own Gmail account, analyses reported network events, and posts
+a summary to the owner's team chat.</p>
+<p>It is not offered to the public. <a href="privacy.html">Privacy policy</a></p>
+</body>
+</html>
+toudi@toudis-Mac-mini netops-agent % cat /Users/toudi/StateGraph/netops-pages/privacy.html
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>netops privacy policy</title>
+<style>body{font-family:system-ui,sans-serif;max-width:40rem;margin:3rem auto;padding:0 1rem;line-height:1.5;color:#222}</style>
+</head>
+<body>
+<h1>Privacy policy</h1>
+<p><em>Last updated: 28 October 2026</em></p>
+<p>netops is a private tool used only by its owner. It is not offered to other users.</p>
+<h2>What data it accesses</h2>
+<p>With the owner's permission (Google scope <code>gmail.modify</code>), netops reads unread
+emails in the owner's Gmail account that match a configured filter, and marks them as read
+after processing. It does not send, delete or forward emails.</p>
+<h2>How data is used</h2>
+<p>Email subject, sender and body are used only to detect and analyse network events.
+For analysis, this content is sent to the AI model providers configured by the owner
+(Anthropic and OpenRouter). Results are stored in the owner's own database and posted to
+the owner's team chat.</p>
+<h2>Sharing</h2>
+<p>Data is not sold or shared with anyone else. Google user data is not used for
+advertising or to train AI models.</p>
+<h2>Removal</h2>
+<p>Access can be revoked at any time at
+<a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+</body>
+</html>
